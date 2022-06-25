@@ -15,8 +15,6 @@ const Slider = ({ slides }) => {
     setCurrentIndex(currentIndex === length - 1 ? 0 : currentIndex + 1);
   }
 
-  console.log(currentIndex);
-
   if(!Array.isArray(slides) || slides.length === 0) {
       return null;
   }
@@ -29,7 +27,7 @@ const Slider = ({ slides }) => {
         return (
             <div key={idx} className={`slide ${currentIndex === idx ? 'active' : ''}`}>
                 {currentIndex === idx && (
-                    <img className="image" src={elm.image} alt='Slideshow Image' />
+                    <img className="image" src={elm.image} alt='Slideshow Element' />
                 )}
             </div>
         ); 
