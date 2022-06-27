@@ -1,0 +1,14 @@
+.image-container {
+    position: relative;
+    width: 350px;
+    height: 600px;   
+    
+    .image {
+        position: absolute;
+        width: 350px;
+        height: 600px;
+        object-fit: cover;
+        padding: 0 10px;
+        border-radius: 10px; 
+      }
+  }
