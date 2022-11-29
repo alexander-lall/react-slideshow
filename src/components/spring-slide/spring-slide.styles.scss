@@ -1,14 +1,14 @@
-.image-container {
-    position: relative;
+.spring-slide-container {
+  position: relative;
+  width: 350px;
+  height: 600px;
+  margin: 0 10px;
+
+  .image {
+    position: absolute;
     width: 350px;
-    height: 600px;   
-    
-    .image {
-        position: absolute;
-        width: 350px;
-        height: 600px;
-        object-fit: cover;
-        padding: 0 10px;
-        border-radius: 10px; 
-      }
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;    
   }
+}

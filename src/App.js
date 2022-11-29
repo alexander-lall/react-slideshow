@@ -13,7 +13,7 @@ function App() {
       <Slider slides={IMAGES} />
       <MultiSlider slides={IMAGES} slidesPerView={3} />
       <SpringSlider slides={IMAGES} />
-      <SpringMultiSlider slides={IMAGES} slidesPerView={3} />
+      <SpringMultiSlider slides={IMAGES} slidesPerView={3} duration={800} />
     </>
   );
 }
